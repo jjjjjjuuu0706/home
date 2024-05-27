@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+    background-color: white;
+    border-radius: 100px;
+    margin: 30px 0;
+    border: 2px groove lightgray;  
+    box-shadow: 0 4px 8px dimgray;
+    height: 130px;
+	width: 70vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.id {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.b1 {
+	background-color: gainsboro;
+}
+
+a {
+	text-decoration-line: none;
+}
+
+.aa {
+	text-decoration-line: none;
+	color: white;
+}
+
+.t {
+	color: black;
+	font-size: 30px;
+}
+
+.i {
+	background-color: lightgray;
+	color: black;
+	font-size: 30px;
+}
+
+.c {
+	background-color: darkgray;
+	color: white;
+	font-size: 30px;
+}
+
+.f {
+	background-color: dimgray;
+	color: white;
+	font-size: 30px;
+}
+
+.h {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 20px;
+	text-decoration: underline dotted 2px white;
+}
+
+.text {
+	background-color: white;
+}
+
+.hh { 
+	background-color: dimgray;
+	color: white;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+	width: 100vw;
+	height: 70px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tl {
+	list-style: none;
+    background-color: darkgray;
+    border-radius: 100px;
+    margin: 30px 10px;
+    border: 2px groove white;  
+    box-shadow: 0 4px 8px dimgray;
+    height: 40px;
+	width: 40vw;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+	padding: 10px;
+}
+
+article {
+	padding: 20px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.th {
+	padding: 10px;
+	margin: 10px;
+	color: dimgray;
+}
+
+section {
+	border: 4px double dimgray;
+	margin: 10px;
+	padding: 10px;
+	line-height: 1.5;
+	word-break: keep-all;
+}
+
+.back {
+		text-decoration-line: none;
+		width: 60px;
+		height: 40px;
+		padding: 10px;
+		color: white;
+		background-color: dimgray;
+		border: 2px outset lightgray;
+}
+
+.ppp {
+	color: gray;
+}
