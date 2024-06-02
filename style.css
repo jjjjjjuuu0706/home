@@ -50,13 +50,13 @@ a {
 
 .c {
 	background-color: darkgray;
-	color: white;
+	color: black;
 	font-size: 30px;
 }
 
 .f {
-	background-color: dimgray;
-	color: white;
+	background-color: gray;
+	color: black;
 	font-size: 30px;
 }
 
