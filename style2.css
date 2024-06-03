@@ -26,15 +26,22 @@ section {
     text-align: center;
     line-height: 1.5;
 	word-break: keep-all;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-h1 { 
+header {	
 	background-color: dimgray;
 	color: white;
 	display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+ }
+
+ h1 {
     width: 100vw;
 	height: 70px;
 	text-align: center;
