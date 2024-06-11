@@ -17,26 +17,12 @@ body {
 .container {
 	padding: 10px;
     display: flex;
-    justify-content: space-between;
-}
-
-
-section {
-    margin: 30px;
-    width: 45%;
-    text-align: center;
-    line-height: 1.5;
-	word-break: keep-all;
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 header {	
 	width: 100vw;
-	background-color: dimgray;
-	color: white;
+	color: black;
+	background-color: darkgray;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,6 +46,11 @@ header {
     align-items: center;
 }
 
+.pp {
+	border: 1px solid black;
+	padding: 15px;
+}
+
 .th {
 	padding: 10px;
 	margin: 10px;
@@ -76,13 +67,51 @@ header {
 		text-decoration-line: none;
 		width: 60px;
 		height: 40px;
-		padding: 10px;
+		padding: 10px 20px;
 		color: white;
 		background-color: dimgray;
 		border: 2px outset lightgray;
 }
 
-.pp {
-	border: 1px dimgray solid;
-	padding:15px;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white;
+}
+
+.nav-button {
+    display: block;
+    margin: 30px 40px;
+    padding: 20px 40px;
+    border: 3px white solid;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: dimgray;
+}
+
+section {
+    display: none;
+    word-break: keep-all;
+    line-height: 1.7;
+    text-align: center;
+}
+
+section:target {
+    display: block;
+}
+
+.iiii {
+	padding: 20px;
+}
+
+nav, section {
+	border-bottom: 2px solid darkgray;
+	padding-bottom: 20px;
 }
