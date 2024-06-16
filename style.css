@@ -25,7 +25,7 @@ li {
 }
 
 .b1 {
-	background-color: gainsboro;
+	background-color: ivory;
 }
 
 a {
@@ -43,19 +43,19 @@ a {
 }
 
 .i {
-	background-color: lightgray;
+	background-color: peachpuff;
 	color: black;
 	font-size: 30px;
 }
 
 .c {
-	background-color: darkgray;
+	background-color: mistyrose;
 	color: black;
 	font-size: 30px;
 }
 
 .f {
-	background-color: gray;
+	background-color: lightblue;
 	color: black;
 	font-size: 30px;
 }

@@ -11,7 +11,7 @@ img {
 }
 
 body {
-	background-color: lightgray;
+	background-color: papayawhip;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 header {	
 	width: 100vw;
 	color: black;
-	background-color: darkgray;
+	background-color: peachpuff;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +39,7 @@ header {
 }
 
 .ppp {
-	color: gray;
+	color: lightsalmon;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +54,7 @@ header {
 .th {
 	padding: 10px;
 	margin: 10px;
-	color: dimgray;
+	color: black;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +69,7 @@ header {
 		height: 40px;
 		padding: 10px 20px;
 		color: white;
-		background-color: dimgray;
+		background-color: lightsalmon;
 		border: 2px outset lightgray;
 }
 
